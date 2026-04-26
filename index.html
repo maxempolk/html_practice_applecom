@@ -8,19 +8,20 @@
 </head>
 
 <body class="bg-white text-black">
-
-  <div class="bg-gray-100 text-sm text-center py-2 px-4 flex flex-col md:flex-row items-center justify-center gap-2">
-    <span>Velg et annet land eller region...</span>
+  <div class="bg-gray-100 text-sm text-center py-2 px-4 flex flex-col md:flex-row items-center justify-center gap-2 hidden">
+    <span class="text-left">Velg et annet land eller region for å se innhold som gjelder der du befinner <br> deg og for å handle på nettet.</span>
       <div class="flex items-center gap-2">
         <button class="bg-white border border-gray-300 text-gray-700 px-3 py-1 rounded cursor-pointer">Norge</button>
       <button class="bg-black text-white px-3 py-1 rounded cursor-pointer">Fortsett</button>
     </div>
   </div>
 
-  <div class="border-b">
+  <header class="bg-[#FAFAFC]">
     <div class="max-w-6xl mx-auto flex items-center justify-between py-3 px-4">
       
-      <div class="text-xl font-bold">🍎</div>
+      <a href="/" class="text-xl font-bold">
+        <svg height="48" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m15.5752 19.0792a4.2055 4.2055 0 0 0 -2.01 3.5376 4.0931 4.0931 0 0 0 2.4908 3.7542 9.7779 9.7779 0 0 1 -1.2755 2.6351c-.7941 1.1431-1.6244 2.2862-2.8878 2.2862s-1.5883-.734-3.0443-.734c-1.42 0-1.9252.7581-3.08.7581s-1.9611-1.0589-2.8876-2.3584a11.3987 11.3987 0 0 1 -1.9373-6.1487c0-3.61 2.3464-5.523 4.6566-5.523 1.2274 0 2.25.8062 3.02.8062.734 0 1.8771-.8543 3.2729-.8543a4.3778 4.3778 0 0 1 3.6822 1.841zm-6.8586-2.0456a1.3865 1.3865 0 0 1 -.2527-.024 1.6557 1.6557 0 0 1 -.0361-.337 4.0341 4.0341 0 0 1 1.0228-2.5148 4.1571 4.1571 0 0 1 2.7314-1.4078 1.7815 1.7815 0 0 1 .0361.373 4.1487 4.1487 0 0 1 -.9867 2.587 3.6039 3.6039 0 0 1 -2.5148 1.3236z"></path></svg>
+      </a>
 
       <div class="hidden md:flex gap-6 text-sm">
         <a href="#">Store</a>
@@ -37,62 +38,85 @@
       </div>
 
       <div class="flex gap-4 text-lg">
-        <span>🔍</span>
-        <span>🛒</span>
+        <a href="#" class="flex items-center">
+          <svg height="48" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m16.2294 29.9556-4.1755-4.0821a6.4711 6.4711 0 1 0 -1.2839 1.2625l4.2005 4.1066a.9.9 0 1 0 1.2588-1.287zm-14.5294-8.0017a5.2455 5.2455 0 1 1 5.2455 5.2527 5.2549 5.2549 0 0 1 -5.2455-5.2527z"></path></svg>
+        </a>
+        <a href="#" class="flex items-center">
+          <svg height="48" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m13.4575 16.9268h-1.1353a3.8394 3.8394 0 0 0 -7.6444 0h-1.1353a2.6032 2.6032 0 0 0 -2.6 2.6v8.9232a2.6032 2.6032 0 0 0 2.6 2.6h9.915a2.6032 2.6032 0 0 0 2.6-2.6v-8.9231a2.6032 2.6032 0 0 0 -2.6-2.6001zm-4.9575-2.2768a2.658 2.658 0 0 1 2.6221 2.2764h-5.2442a2.658 2.658 0 0 1 2.6221-2.2764zm6.3574 13.8a1.4014 1.4014 0 0 1 -1.4 1.4h-9.9149a1.4014 1.4014 0 0 1 -1.4-1.4v-8.9231a1.4014 1.4014 0 0 1 1.4-1.4h9.915a1.4014 1.4014 0 0 1 1.4 1.4z"></path></svg>
+        </a>
+        <a href="#" class="flex items-center">
+          <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"><animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate><animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate></polyline><polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"><animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate><animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate></polyline></svg>
+        </a>
       </div>
     </div>
-  </div>
+  </header>
 
-  <div class="text-center text-sm py-3 text-gray-600 px-4">
+  <div class="text-center text-sm py-3 text-gray-600 px-4 bg-[#F5F5F7]">
     Get up to $195–$685 in credit toward iPhone 17...
   </div>
 
   <div class="max-w-6xl mx-auto px-4 mt-8">
     <h1 class="text-4xl md:text-6xl font-semibold mb-10">iPhone</h1>
 
-  
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-6 text-center">
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
+    <div class="flex justify-center text-center relative">
+      <button class="absolute left-12 h-full">
+        <
+      </button>
+      <div class="flex justify-center gap-6 overflow-x-auto max-w-full mx-16">
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
         <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16 object-contain">
         <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">iPhone Air</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_iphone_17pro__b8rt659h2ogi_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">iPhone 17</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_iphone_air__f066mfdfhi62_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">iPhone 17e</span>
-        <span class="text-xs text-orange-500">New</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_iphone_17__bx67weh1ur5y_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">iPhone 16</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_iphone_17e__dea363vi6ggi_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">Accessories</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_iphone_16__qsxcpuia0oam_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">Shop iPhone</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_compare__e3xurpy671me_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
-      <div class="flex flex-col items-center gap-2 cursor-pointer">
-        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwbIhVmUIxHXWXDWUMiWsMHl_L8msek6bk2Bgcm1MGYQ9AlB3Hxf6R4PS5B4LY9AulgXZEOFPGrrDzQfvW0fqr1elE3pRVBfeeCwdaL2pWXkD7wpm4ZqDvdEYA1yswwRk6a1k3lkDS&usqp=CAc" class="h-16">
-        <span class="text-sm">iOS</span>
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_accessories__d0p6sy36eueu_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
       </div>
 
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com/v/iphone/home/cj/images/overview/chapternav/nav_shop__en8a967ft5km_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
+      </div>
+
+      <div class="flex flex-col items-center gap-2 cursor-pointer w-20 p-5 pt-0">
+        <img src="https://www.apple.com//v/iphone/home/cj/images/overview/chapternav/nav_ios__e5jic1u960ya_large.png" class="h-16 object-contain">
+        <span class="text-sm">iPhone 17 Pro</span>
+      </div>
+      </div>
+      <button class="absolute right-12 h-full">
+        >
+      </button>
+      
     </div>
   </div>
 
